@@ -17,7 +17,7 @@ load_dotenv()
 
 class BatterFlyParser:
     URL = "https://evapi.qasqir.kz/api/charging/charge-points?lat=53.308192008234826&lon=71.89814008364576&distance=8104740.584412225&size=999"
-    API_KEY = getenv('api_key')
+    API_KEY = getenv('API_KEY')
 
     CONNECTORS_MAPPING = {
         "chademo": {
